@@ -1,0 +1,45 @@
+//* CSS Standard Variables
+// :root {
+//     --primary-color: lightgray;
+//     --secondary-color: lightpink;
+//     --text-color: plum;
+// }
+
+// body {
+//     background-color: var(--primary-color);
+// }
+
+// h1 {
+//     color: var(--text-color);
+// }
+
+// p {
+//     color: var(--text-color);
+// }
+
+//* SASS Variables
+// $primary-color: plum;
+// $secondary-color: lime;
+// $text-color: darkred;
+
+// body {
+//     background-color: $primary-color;
+// }
+
+// h1 {
+//     color: $text-color;
+// }
+
+//* SASS Map
+// $alert-danger: red;
+// $alert-success: green;
+// $alert-warning: orange;
+$alert: (
+    'danger': red,
+    'success': green,
+    'warning': orange,
+);
+
+h1 {
+    color: map-get($alert, 'warning' );
+}
