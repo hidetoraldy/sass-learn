@@ -1,3 +1,53 @@
-body {
-    background-color: plum;
+// .main {
+//     background-color: lightblue;
+
+//     .main-heading {
+//         font-size: 2em;
+//     }
+
+//     .main-paragraph {
+//         font-size: 1.5em;
+//     }
+// }
+
+// .main, footer {
+//     h1, p {
+//         letter-spacing: 1px;
+//     }
+// }
+
+//* &
+//? Parrent selector
+// .main {
+//     .container & {
+//         background-color: lightcoral;
+//     }
+
+//     .main-heading {
+//         font-size: 2em;
+//     }
+
+//     &:hover {
+//         background-color: plum;
+//     }
+// }
+
+.main {
+    & &-heading {
+        font-size: 2em;
+    }
+
+    & &-paragraph {
+        font-size: 1.5em;
+    }
+}
+
+.footer {
+    & &-heading {
+        font-size: 2em;
+    }
+
+    & &-paragraph {
+        font-size: 1.5em;
+    }
 }
