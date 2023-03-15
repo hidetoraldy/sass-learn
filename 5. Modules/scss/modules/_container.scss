@@ -1,5 +1,7 @@
+@use 'mixin';
+
 .container {
-    @include flex-box(row-reverse, space-evenly);
+    @include mixin.flex-box(row-reverse, space-evenly);
     width: 600px;
     height: 400px;
     background-color: lightgray;
