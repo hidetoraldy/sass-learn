@@ -1,0 +1,13 @@
+//* Import Method
+// @import 'modules/mixin';
+// @import 'modules/header';
+// @import 'modules/container';
+// @import 'modules/footer';
+
+// @import 'modules/mixin', 'modules/header', 'modules/container', 'modules/footer';
+
+//* Use Method
+@use 'modules/mixin';
+@use 'modules/header';
+@use 'modules/container';
+@use 'modules/footer';
