@@ -1,1 +1,93 @@
-/*# sourceMappingURL=main.css.map */
+.body {
+  min-height: 1000px;
+}
+
+.square-profile {
+  width: 200px;
+  height: 200px;
+  border: 5px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.circle-profile {
+  width: 80px;
+  height: 80px;
+  border: 5px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.nav {
+  background-color: #999;
+  color: #ddd;
+}
+
+.right {
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 2em;
+  border-left-color: black;
+}
+
+.gradient {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.gradient li:nth-child(1) {
+  padding: 4px;
+  background-color: #006e00;
+}
+.gradient li:nth-child(2) {
+  padding: 4px;
+  background-color: #007800;
+}
+.gradient li:nth-child(3) {
+  padding: 4px;
+  background-color: #008300;
+}
+.gradient li:nth-child(4) {
+  padding: 4px;
+  background-color: #008d00;
+}
+.gradient li:nth-child(5) {
+  padding: 4px;
+  background-color: #009700;
+}
+.gradient li:nth-child(6) {
+  padding: 4px;
+  background-color: #00a100;
+}
+.gradient li:nth-child(7) {
+  padding: 4px;
+  background-color: #00ab00;
+}
+.gradient li:nth-child(8) {
+  padding: 4px;
+  background-color: #00b600;
+}
+.gradient li:nth-child(9) {
+  padding: 4px;
+  background-color: #00c000;
+}
+.gradient li:nth-child(10) {
+  padding: 4px;
+  background-color: #00ca00;
+}
+
+.socials {
+  font-size: 2em;
+  font-family: Georgia;
+  font-weight: bold;
+}
+.socials .twitter {
+  color: #1da1f2;
+}
+.socials .github {
+  color: grey;
+}
+.socials .twitch {
+  color: #8134af;
+}/*# sourceMappingURL=main.css.map */
